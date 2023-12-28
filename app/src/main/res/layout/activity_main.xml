@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardBackgroundColor="#FFB800" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friends"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="30dp"/>
+
+        <ImageButton
+            android:background="#FFB800"
+            android:id="@+id/addButton"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="300dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/addfriend" />
+
+        <ImageButton
+            android:background="#FFB800"
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="15dp"
+            app:srcCompat="@drawable/backicon" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/searchbar"
+            android:focusable="false"
+            app:iconifiedByDefault="false"
+            app:searchHintIcon="@null"
+            app:searchIcon="@drawable/baseline_search_24">
+
+        </androidx.appcompat.widget.SearchView>
+
+        <ImageButton
+            android:id="@+id/friend1Button"
+            android:layout_width="wrap_content"
+            android:layout_height="155dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="90dp"
+            android:background="@color/white"
+            app:srcCompat="@drawable/group1" />
+
+        <ImageButton
+            android:id="@+id/friend2Button"
+            android:layout_width="wrap_content"
+            android:layout_height="155dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="90dp"
+            android:background="@color/white"
+            app:srcCompat="@drawable/group1" />
+
+        <ImageButton
+            android:id="@+id/friend3Button"
+            android:layout_width="wrap_content"
+            android:layout_height="155dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="250dp"
+            android:background="@color/white"
+            app:srcCompat="@drawable/group1" />
+
+        <ImageButton
+            android:id="@+id/friend4Button"
+            android:layout_width="wrap_content"
+            android:layout_height="155dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="250dp"
+            android:background="@color/white"
+            app:srcCompat="@drawable/group1" />
+
+        <ImageButton
+            android:id="@+id/friend5Button"
+            android:layout_width="wrap_content"
+            android:layout_height="155dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="410dp"
+            android:background="@color/white"
+            app:srcCompat="@drawable/group1" />
+
+        <ImageButton
+            android:id="@+id/friend6Button"
+            android:layout_width="wrap_content"
+            android:layout_height="155dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="410dp"
+            android:background="@color/white"
+            app:srcCompat="@drawable/group1" />
+
+    </RelativeLayout>
+
+</LinearLayout>
