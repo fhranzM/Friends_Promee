@@ -55,6 +55,253 @@
         </androidx.appcompat.widget.SearchView>
 
 
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="12dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/icon_prof"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/proficon"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/recTitle"
+                    android:text="Potential Friend"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@id/icon_prof"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp" />
+
+                <ImageButton
+                    android:id="@+id/add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/addbtn"
+                    android:layout_toEndOf="@id/icon_prof"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="20dp">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/removebtn"
+                    android:layout_toEndOf="@id/add"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="10dp">
+                </ImageButton>
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="12dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/icon_prof2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/proficon"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="Potential Friend"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@id/icon_prof2"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp" />
+
+                <ImageButton
+                    android:id="@+id/add2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/addbtn"
+                    android:layout_toEndOf="@id/icon_prof2"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="20dp">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/removebtn"
+                    android:layout_toEndOf="@id/add2"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="10dp">
+                </ImageButton>
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginEnd="12dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/icon_prof3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/proficon"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="Potential Friend"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@id/icon_prof3"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp" />
+
+                <ImageButton
+                    android:id="@+id/add3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/addbtn"
+                    android:layout_toEndOf="@id/icon_prof3"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="20dp">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/removebtn"
+                    android:layout_toEndOf="@id/add3"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="10dp">
+                </ImageButton>
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="440dp"
+            android:layout_marginEnd="12dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/icon_prof4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/proficon"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="Potential Friend"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@id/icon_prof4"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp" />
+
+                <ImageButton
+                    android:id="@+id/add4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/addbtn"
+                    android:layout_toEndOf="@id/icon_prof4"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="20dp">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/removebtn"
+                    android:layout_toEndOf="@id/add4"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="10dp">
+                </ImageButton>
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
 
     </RelativeLayout>
 
